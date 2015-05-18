@@ -46,6 +46,6 @@ grafana
 ```
 
 ```
-cd $GOPATH/src/github.com/getlantern/influx-example/
+cd $GOPATH/src/github.com/getlantern/influxdb-test/
 go run main.go
 ```
