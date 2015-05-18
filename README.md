@@ -1,3 +1,9 @@
+# influxdb-test
+
+An InfluxDB test server
+
+## Run
+
 Following command sequence is tested on an Digital Ocean Ubuntu 14.04 64bit droplet.
 
 ```
