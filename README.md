@@ -18,12 +18,12 @@ sudo /etc/init.d/influxdb start
 wget https://storage.googleapis.com/golang/go1.4.2.linux-amd64.tar.gz
 tar zxvf go1.4.2.linux-amd64.tar.gz
 mkdir ~/wd
-cat - >> .profile <<'EOF'
+cat - >> ~/.profile <<'EOF'
 export GOROOT=~/go
-export PATH=$GOROOT:$PATH
 export GOPATH=~/wd
+export PATH=$GOROOT/bin:$GPPATH/bin:$PATH
 EOF
-source .profile
+source ~/.profile
 
 cd $GOPATH/src/github.com/grafana/grafana
 go run build.go setup
