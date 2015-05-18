@@ -42,6 +42,7 @@ Under `[security]`, Change `admin_user` and `admin_password`
 
 ```
 curl -G http://localhost:8086/query --data-urlencode "q=CREATE DATABASE sonar"
+curl -G http://localhost:8086/query --data-urlencode "q=CREATE USER sonar WITH PASSWORD 'sonar'"
 grafana
 ```
 

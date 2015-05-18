@@ -13,7 +13,6 @@ import (
 )
 
 const (
-	//MyHost = "128.199.154.66"
 	MyHost        = "localhost"
 	MyPort        = 8086
 	MyDB          = "sonar"
